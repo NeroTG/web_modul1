@@ -1,0 +1,24 @@
+.custom-btn-login {
+  background-color: #add8e6;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+.content {
+  position: absolute;
+  left: 10%;
+  bottom: 50%;
+  min-width: 50%;
+  max-width: 900px;
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  .custom-btn-login {
+    width: 100px;
+  }
+}
+
+.footer-wrapper {
+  min-height: 50;
+}
